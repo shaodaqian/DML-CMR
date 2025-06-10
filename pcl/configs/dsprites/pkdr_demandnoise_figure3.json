@@ -1,0 +1,23 @@
+{
+    "n_repeat": 20,
+    "data": {
+        "name": "dsprite",
+        "n_sample": [1000, 2000, 5000, 7500],
+        "outcome_proxy_dim": "low"
+    },
+    "model": {
+        "name": "pkdr",
+        "device": "cuda",
+        "n_layers": 4,
+        "batch_size": 512,
+        "lr": 0.0001,
+        "n_epochs": 500,
+        "weight_decay": 0.0001,
+        "n_components": 50,
+        "gamma_gm": "auto",
+        "n_gamma_hqs": 50,
+        "n_alphas": 35,
+        "alpha_scales": "auto",
+        "cv": 5
+    }
+}

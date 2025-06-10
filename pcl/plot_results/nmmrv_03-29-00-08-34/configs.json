@@ -1,0 +1,23 @@
+{
+    "n_repeat": 20,
+    "data": {
+        "name": "demand",
+        "n_sample": [
+            1000,
+            2000,
+            5000,
+            10000
+        ]
+    },
+    "model": {
+        "name": "nmmr",
+        "n_epochs": 3000,
+        "batch_size": 1000,
+        "log_metrics": "False",
+        "learning_rate": 0.001,
+        "l2_penalty": 3e-06,
+        "loss_name": "V_statistic",
+        "network_depth": 3,
+        "network_width": 80
+    }
+}

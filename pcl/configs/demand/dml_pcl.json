@@ -1,0 +1,16 @@
+{
+    "n_repeat": 20,
+    "data": {
+        "name" : "demand",
+        "n_sample" : [1000]
+    },
+    "model": {
+        "name": "dml_pcl",
+        "n_components": 10,
+        "dropout": 0.1,
+        "batch_size": 100,
+        "weight_decay": 0.0001,
+        "response_decay": 0.001,
+        "lr": 0.0001
+    }
+}

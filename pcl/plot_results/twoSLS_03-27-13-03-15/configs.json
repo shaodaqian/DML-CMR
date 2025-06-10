@@ -1,0 +1,15 @@
+{
+    "n_repeat": 20,
+    "data": {
+        "name": "demand",
+        "n_sample": [
+            1000,
+            2000,
+            5000,
+            10000
+        ]
+    },
+    "model": {
+        "name": "twoSLS"
+    }
+}
